@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items__menu {
+    display: inline-block;
+    margin: 15px;
+}
+
+.im {
+    text-decoration: none;
+    color: #555;
+    font-size: 20px;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.user_do_something {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.search {
+    height: 30px;
+    width: 180px;
+    font-size: 18px;
+    border: 2px solid #555;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 0 200px;
+}
+
+.header {}
+
+.category {
+    display: flex;
+}
+
+.center {
+    margin-top: 30px;
+}
+
+.center__image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center__image-big {
+    margin-right: 30px;
+}
+
+.center__image-small {
+    display: flex;
+}
+
+.center__image-small--left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.center__image-small--left {
+    display: flex;
+    flex-direction: column;
+}
+
+.center__content {
+    display: flex;
+}
+
+.center__content-mid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.center__content-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.center__content-mid--payment {
+    margin-left: 20px;
+}
